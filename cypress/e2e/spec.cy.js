@@ -16,7 +16,7 @@ const shareDropdownSelector = " .hasmore > span";
 const expandCsvSelector = "ul > :nth-child(3) > .tooltip";
 
 describe("template spec", () => {
-  it("get game data", () => {
+  it("get batting and pitching data", () => {
     const seasonYear = 2022;
     teams.forEach((team) => {
       const currentGameLogUrl = makeTeamGameLogUrl(
